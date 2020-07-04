@@ -6,12 +6,13 @@
 }
 
 body {
-    background-color: #5D5D81
+    background-color: #BFCDE0;
+    /*background-color: #5D5D81;*/
 }
 
 .section-heading {
     font-family: 'Lobster', cursive;
-    color: #FEFCFD;
+    /*color: #FEFCFD;*/
     text-align: center;
 }
 
@@ -22,7 +23,8 @@ body {
 /* Benefits Section */
 
 .benefits {
-    background-color: #BFCDE0;
+    background-color: #FEFCFD;
+    /*background-color: #BFCDE0;*/
 }
 
 .tourist-benefits {
@@ -33,4 +35,8 @@ body {
 .tourguide-benefits {
     display: none;
     list-style-position: inside;
+}
+
+.signup {
+    display: none;
 }
