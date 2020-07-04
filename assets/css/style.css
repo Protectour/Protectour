@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lobster&display=swap');
+
+.heading {
+    font-family: 'Lobster', cursive;
+}
+
+.tourist-benefits {
+    display: none;
+}
+
+.tourguide-benefits {
+    display: none;
+}
