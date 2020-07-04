@@ -1,18 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Protectour - Share your world with the world</title>
-</head>
-<body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<title>Protectour - Share your world with the world</title>
+</head>
+
+<body>
+	<h1>Benefits</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-md-6 benefits">
+				<h2 id="tourist-benefits-heading" class="heading">For tourists</h2> 
+				<ul class="tourist-benefits">
+					<li>See the world from the comfort and safety of home</li>
+					<li>Approved and rated guides</li>
+					<li>Item 3</li>
+				</ul>
+			</div>
+            <div class="col-12 col-md-6">
+				<h2 id="tourguide-benefits-heading" class="heading">For tour guides</h2>
+				<ul class="tourguide-benefits">
+					<li>Protect your income</li>
+					<li>Stay safe while carrying out tours</li>
+					<li>Item 3</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script>
+        $(document).ready(function() {
+            $("#tourist-benefits-heading").click(function() {
+                $(".tourist-benefits").slideToggle();              
+            });
+            $("#tourguide-benefits-heading").click(function() {
+                $(".tourguide-benefits").slideToggle();
+            });
+        });
+	</script>
 </body>
+
 </html>
