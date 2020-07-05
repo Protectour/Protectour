@@ -7,7 +7,6 @@
 
 body {
     background-color: #BFCDE0;
-    /*background-color: #5D5D81;*/
 }
 
 /* Navbar */
@@ -24,8 +23,8 @@ body {
 
 .section-heading {
     font-family: 'Lobster', cursive;
-    /*color: #FEFCFD;*/
     text-align: center;
+    margin: 15px;
 }
 
 .heading {
@@ -36,7 +35,6 @@ body {
 
 .benefits {
     background-color: #FEFCFD;
-    /*background-color: #BFCDE0;*/
 }
 
 .tourist-benefits {
@@ -51,6 +49,15 @@ body {
 
 .signup {
     display: none;
+}
+
+.benefits-btn {
+    background-color: #f6ae2d;
+    text-align: center;
+}
+
+.benefits-btn:hover {
+    background-color: #f2671f;
 }
 
 .book-tour {
