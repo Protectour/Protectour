@@ -13,11 +13,11 @@ body {
 /* Navbar */
 
 .bg-custom {
-    background-color: #5D5D81;
+    background-color: #FCFDFE;
 }
 
-.navbar-brand {
-    
+.navbar-brand .logo {
+    max-height: 80px;
 }
 
 /* Headings */
@@ -55,4 +55,12 @@ body {
 
 .book-tour {
     display: none;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+    .navbar-brand .logo {
+    max-height: 120px;
+    }
 }
