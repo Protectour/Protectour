@@ -363,6 +363,7 @@
           modal.find(".modal-body #recipient-name").val(recipient);
         });
         $("#modal-booking").on("submit", function (e) {
+          event.preventDefault();
           $("#book-tour-modal").modal("hide");
           $("#thankyou").modal("show");
         });
