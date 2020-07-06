@@ -36,12 +36,32 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Services Offered</a>
           <a class="dropdown-item" href="#">Testimonials</a>
-          <a class="dropdown-item" href="#">Register With Us</a>
+          <a class="dropdown-item" href="#contact">Register With Us</a>
         </div>
       </li>
     </ul>
   </div>
 </nav>
+<!------contact form-->
+ <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col-md-12 form-heading">
+                <h3 class="contact-heading uppercase text-center" id="contact">Want to become a registered tour-guide?</h3>
+                <h5 class="uppercase text-center">Let's work together</h5>
+            </div>
+            <div class="center-form row">
+           <form >
+                <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+                <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
+                 <input type="text" name="location" class="form-control" id="location" placeholder="Location" required/>
+                <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Tour Description" required></textarea>
+                <button type="submit" id+class="btn btn-secondary center-block">Send Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!-------------Footer-->
 <footer>
 		<div class="row">
 			<div class="col-sm-6 social-pages">
@@ -77,6 +97,11 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+    document.getElementById('email').addEventListener('load', function() {
+    alert('Email Send Successfully');
+});
+    </script>
 </body>
 
 </html>
