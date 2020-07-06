@@ -71,3 +71,26 @@ body {
     max-height: 120px;
     }
 }
+
+
+/* footer styling */
+footer {
+    background-color:  #FCFDFE;
+    min-height: 120px;
+    width: -webkit-fill-available;
+    margin-top: 40px;
+}
+
+.list-inline.social-links {
+    padding-right: 30px;
+    list-style: none;
+    background-color:#FCFDFE;
+    font-size:30px;
+    padding-top: 30px;
+    text-align: center;
+   
+}
+
+.social-links li a {
+    color: #f6ae2d;
+}
