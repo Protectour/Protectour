@@ -13,75 +13,94 @@
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-custom">
-  <a class="navbar-brand" href="#">
-    <img src="/assets/images/protectour-logo.png" class="img-fluid logo" alt="Protectour logo">
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+    <a class="navbar-brand" href="#">
+        <img src="/assets/images/protectour-logo.png" class="img-fluid logo" alt="Protectour logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="tourists.html">I'm A Tourist</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          I'm A Tour Guide
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="tourguides.html">Services Offered</a>
-          <a class="dropdown-item" href="tourguides.html">Testimonials</a>
-          <a class="dropdown-item" href="tourguides.html#contact">Register With Us</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-<!--Hero Image-->
-
-<div class="row justify-content-center image-selection">
-    <div class="image-container-fluid ">
-        <img class="img-fluid" src="../assets/images/dublin-hero-image.jpg" alt="view of a bridge over the river liffey">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="tourists.html">I'm A Tourist</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            I'm A Tour Guide
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="tourguides.html">Services Offered</a>
+            <a class="dropdown-item" href="tourguides.html">Testimonials</a>
+            <a class="dropdown-item" href="tourguides.html#contact">Register With Us</a>
+            </div>
+        </li>
+        </ul>
     </div>
-</div>
-
-	<h1 class="section-heading">Benefits</h1>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-12 col-md-6">
-				<div class="card benefits">
-					<div class="card-body tourist">
-						<h2 class="heading card-title">For Tourists</h2>
-						<ul class="tourist-benefits">
-							<li>See the world from the safety of home</li>
-							<li>Chat with local guides with a proven knowledge of the area</li>
-							<li>Enjoy specialised or personalised tours within an area</li>
-						</ul>
-					</div>
-                    <a class="book-tour benefits-btn btn btn-lg" href="#">Book a virtual tour</a>
-				</div>
-			</div>
-			<div class="col-12 col-md-6">
-				<div class="card benefits">
-					<div class="card-body tourguide">
-						<h2 class="heading card-title">For Tour Guides</h2>
-						<ul class="tourguide-benefits">
-							<li>Earn money by giving tours of your area</li>
-							<li>Payment and tipping system provided</li>
-							<li>Connect to a worldwide audience of virtual tourists</li>
-						</ul>
-					</div>
-                    <a class="btn btn-lg signup benefits-btn" href="tourguides.html#contact">Register as a tour guide</a>
-				</div>
-			</div>
-		</div>
-	</div>
+    </nav>
+<!-- Main Section Content-->
+<!--Hero Image-->
+        <section class="container-fluid">
+            <div class="row justify-content-center image-selection">
+                <div class="image-container-fluid ">
+                    <img class="img-fluid" src="../assets/images/dublin-hero-image.jpg" alt="view of a bridge over the river liffey">
+                </div>
+            </div>
+<!--Our Service-->            
+            <h1 class="section-heading ServTitle">Our Service</h1>
+            <div class="row text-center">
+                <div class="card col-12 col-md-4" style="width: 18rem;">
+                    <i class="fas fa-video VidCust"><span class="sr-only">Virtual Camera Icon</span></i>
+                    <h3 class="VidText">Virtual Tours</h3>
+                </div>
+                <div class="card col-12 col-md-4" style="width: 18rem;">
+                    <i class="fas fa-walking Footsteps"><span class="sr-only">Walking Tour Icon</span></i>  
+                    <h3 class="Walking">Walking Tours</h3>
+                </div>       
+                <div class="card col-12 col-md-4" style="width: 18rem;">
+                    <i class="fas fa-car-alt CarIcon"><span class="sr-only">Chauffeured Icon</span></i>
+                    <h3 class="Chauffeured">Private Chauffered</h3>
+                </div>
+            </div>
+<!--Benefits-->
+            <h1 class="section-heading">Benefits</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="card benefits">
+                            <div class="card-body tourist">
+                                <h2 class="heading card-title">For Tourists</h2>
+                                <ul class="tourist-benefits">
+                                    <li>See the world from the safety of home</li>
+                                    <li>Chat with local guides with a proven knowledge of the area</li>
+                                    <li>Enjoy specialised or personalised tours within an area</li>
+                                </ul>
+                            </div>
+                            <a class="book-tour benefits-btn btn btn-lg" href="#">Book a virtual tour</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card benefits">
+                            <div class="card-body tourguide">
+                                <h2 class="heading card-title">For Tour Guides</h2>
+                                <ul class="tourguide-benefits">
+                                    <li>Earn money by giving tours of your area</li>
+                                    <li>Payment and tipping system provided</li>
+                                    <li>Connect to a worldwide audience of virtual tourists</li>
+                                </ul>
+                            </div>
+                            <a class="btn btn-lg signup benefits-btn" href="tourguides.html#contact">Register as a tour guide</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--.Main Section Content-->
+        
 <!-------Footer-->
     <footer>
 		<div class="row">
