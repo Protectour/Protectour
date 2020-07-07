@@ -39,60 +39,37 @@ body {
     margin: 0;
 }
 
-.VidCust{
+.CardIconC{
     font-size: 5rem;
     text-align: center;
     padding-top: 1rem;
+    color: #f6ae2d;
 }
 
-.VidText{
-    font-family: 'Lobster', cursive;
+.CardHeadMain{
+    font-family: 'Barlow', cursive;
     text-align: center;
-    color:#3B3355;
+    color: #000000;
     padding-top: 0.125rem;
 }
-
-.Footsteps{
-    font-size: 5rem;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-.Walking{
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    color:#3B3355;
-    padding-top: 0.125rem;
-}
-
-.CarIcon{
-    font-size: 5rem;
-    text-align: center;
-    padding-top: 1rem;
-}
-
-.Chauffeured{
-    font-family: 'Lobster', cursive;
-    text-align: center;
-    color:#3B3355;
-    padding-top: 0.125rem;
-}
-
 
 /* Benefits Section */
 
 .benefits {
     background-color: #FEFCFD;
+    color: #f6ae2d;
 }
 
 .tourist-benefits {
     display: none;
     list-style-position: inside;
+    color: #000000;
 }
 
 .tourguide-benefits {
     display: none;
     list-style-position: inside;
+    color: #000000;
 }
 
 .signup {
