@@ -9,6 +9,13 @@ body {
     background-color: #BFCDE0;
 }
 
+
+/* General Use Classes */
+
+.BarlowF{
+    font-family: 'Barlow', sans-serif;
+
+}
 /* Navbar */
 
 .bg-custom {
@@ -39,6 +46,10 @@ body {
     margin: 0;
 }
 
+.ServText{
+    font-size: 0.95rem;
+}
+
 .CardIconC{
     font-size: 5rem;
     text-align: center;
@@ -47,9 +58,8 @@ body {
 }
 
 .CardHeadMain{
-    font-family: 'Barlow', cursive;
     text-align: center;
-    color: #000000;
+    color: #000505;
     padding-top: 0.125rem;
 }
 
@@ -63,13 +73,13 @@ body {
 .tourist-benefits {
     display: none;
     list-style-position: inside;
-    color: #000000;
+    color: #000505;
 }
 
 .tourguide-benefits {
     display: none;
     list-style-position: inside;
-    color: #000000;
+    color: #000505;
 }
 
 .signup {
