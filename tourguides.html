@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-custom">
   <a class="navbar-brand" href="#">
     <img src="/assets/images/protectour-logo.png" class="img-fluid logo" alt="Protectour logo">
@@ -35,7 +36,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#">Services Offered</a>
-          <a class="dropdown-item" href="#">Testimonials</a>
+          <a class="dropdown-item" href="#guideTest">Testimonials</a>
           <a class="dropdown-item" href="#contact">Register With Us</a>
         </div>
       </li>
@@ -52,25 +53,57 @@
 </div>
 <!--.Hero Image-->
 
-<!--contact form-->
- <section class="container-fluid">
+<!--Testimonial Cards-->
+    <section class="container-fluid">
+        <div class="row TourTestemTitl"><h2 class="col-12 text-center" id="guideTest">Guide Testimonials</h2></div>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card bg-light mb-3" style="min-width: 5rem">
+                    <div class="card-header TestBoxH LobsterF letter-spacing">Helen, UK</div>
+                    <div class="card-body TestBoxB BarlowF">
+                        <p class="card-text QuoteCont BarlowF">“The friendly team at Protectour made sure I could promote by business to bring in a 
+                        wider range of clientele for when restrictions start to ease up!”</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card bg-light mb-3" style="min-width: 5rem;">
+                    <div class="card-header TestBoxH LobsterF letter-spacing">Gunnar, Iceland</div>
+                    <div class="card-body TestBoxB BarlowF">
+                        <p class="card-text QuoteCont BarlowF">“My tours normally go on for a minimum of 3days. Sometimes, I have no cell-reception, 
+                        but Protectour keep me well-informed of new bookings.”</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card bg-light mb-3" style="min-width: 5rem;">
+                    <div class="card-header TestBoxH LobsterF letter-spacing">Francesco, Italy</div>
+                    <div class="card-body TestBoxB BarlowF">
+                        <p class="card-text QuoteCont BarlowF">"I used to rely a lot upon the all of the passengers from cruise ships. Now as Italy is opening up again, 
+                        I’ve received more notice, using Protectour!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--.Testimonial Cards-->
+<!--Tour Guide Contact Form-->
         <div class="row bg-color-contact">
             <div class="col-md-12 form-heading">
-                <h3 class="contact-heading uppercase text-center" id="contact">Want to become a registered tour-guide?</h3>
-                <h5 class="uppercase text-center">Let's work together</h5>
+                <h2 class="contact-heading text-center" id="contact">Want to become a registered tour-guide?</h2>
+                <h4 class="uppercase text-center">Let's work together</h4>
             </div>
             <div class="center-form row">
            <form >
                 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                 <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                 <input type="text" name="location" class="form-control" id="location" placeholder="Location" required/>
+                <input type="text" name="location" class="form-control" id="location" placeholder="Location" required/>
                 <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Tour Description" required></textarea>
-                <button type="submit" id+class="btn btn-secondary center-block">Send Request</button>
+                <button type="submit" id+class="btn btn-secondary">Send Request</button>
                 </form>
             </div>
         </div>
     </section>
-
+<!--.Tour Guide Contact Form-->
 <!-------------Footer-->
     <footer class="page-footer">
 		<div class="row">

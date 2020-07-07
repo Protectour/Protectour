@@ -9,14 +9,26 @@ body {
     background-color: #BFCDE0;
 }
 
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.letter-spacing{
+    letter-spacing: 0.125rem;
+}
 
 /* General Use Classes */
 
 .BarlowF{
     font-family: 'Barlow', sans-serif;
-
 }
-/* Navbar */
+
+.LobsterF{
+    font-family: 'Lobster', cursive;
+}
+
+/* NAVBAR */
 
 .bg-custom {
     background-color: #FCFDFE;
@@ -26,7 +38,7 @@ body {
     max-height: 80px;
 }
 
-/* Headings */
+/* HEADINGS */
 
 .section-heading {
     font-family: 'Lobster', cursive;
@@ -63,7 +75,7 @@ body {
     padding-top: 0.125rem;
 }
 
-/* Benefits Section */
+/* BENEFITS SECTION */
 
 .benefits {
     background-color: #FEFCFD;
@@ -134,7 +146,7 @@ body {
     color: #212529;
 }
 
-/* Modals */
+/* MODALS */
 
 .modal-body form {
     width: 100%;    
@@ -154,7 +166,6 @@ body {
     background-color: #f6ae2d;
     color: #212529;
 }
-}
 
 /* Media Queries */
 
@@ -165,7 +176,8 @@ body {
 }
 
 
-/* footer styling */
+/* FOOTER */
+
 footer {
     background-color:  #FCFDFE;
     min-height: 120px;
@@ -180,65 +192,97 @@ footer {
     font-size:30px;
     padding-top: 30px;
     text-align: center;
-   
 }
 
 .social-links li a {
     color: #f6ae2d;
 }
 
-/* contact section styling */
-.form-heading{
+/* TOUR GUIDES */
+
+.TourTestemTitl{
     font-family: 'Lobster', cursive;
-     color: #374955;
-    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.TestBoxH{
+    background-color: #3B3355;
+    color:#FEFCFD;
+    font-size: 1.5rem;
+    border-radius: 10%;
+
+}
+
+.TestBoxB{
+    background-color: #5D5D81;
+    color: #f6ae2d;
+}
+
+.QuoteCont{
+    color: #FCFDFE;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+
+
+
+/* Contact Form */
+.form-heading h3{
+    font-family: 'Lobster', cursive;
+    color: #212529;
+}
+
+.form-heading h4{
+    font-family: 'Barlow', sans-serif;
+    color: #FCFDFE;
 }
 
 form {
-  width: 500px;
-  background: #FCFDFE;
-  padding: 20px 25px;
-  margin: auto;
-  margin-top: 30px;
-  box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
-  margin-bottom: 40px;
+    width: 500px;
+    background: #FCFDFE;
+    padding: 20px 25px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    margin-bottom: 40px;
 }
+
 form input,
 form textarea {
-   
     font-size: 30px;
-   font-weight: 300px;
-   color: #003762;
-  padding: 5px 5px;
-  width: 100%;
-  margin-top: 3px;
-  margin-bottom: 15px;
-  box-sizing: border-box;
-
+    font-weight: 300px;
+    color: #003762;
+    padding: 5px 5px;
+    width: 100%;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
 }
 
 .form-control {
     background-color: #E6F4F1 ;
 }
 form button {
-  border: 1px solid rgba(0,0,0,0.2);
-  padding: 8px 35px;
-  font-size: 12px;
-  text-align: center;
-  color: white;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 8px 35px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
 }
 form label {
-  color: #777;
-  font-size: 11px;
-  margin-bottom: 2px;
-  display: block;
+    color: #777;
+    font-size: 11px;
+    margin-bottom: 2px;
+    display: block;
 }
 
 .contact-heading {
+    font-family: 'Lobster', cursive;    
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
-    font-size: 60px;
 }
 
 
@@ -248,10 +292,17 @@ form label {
     max-width: 70%;
 }
 
+.TGContButton{
+    border-radius: 50%;
+}
+
+
 button[type="submit"] {
+    font-family: 'Lobster', cursive;
+    font-size: 15px;
     margin-top: 15px;
     margin-bottom: 20px;
     background-color:  #f6ae2d;
-    color: #fafafa;
-   
+    color: #FCFDFE;
+    letter-spacing: 2px;
 }
