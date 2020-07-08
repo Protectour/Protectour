@@ -72,7 +72,8 @@ h1,h2,h3,h4,h5,h6{
 .CardHeadMain{
     text-align: center;
     color: #000505;
-    padding-top: 0.125rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 /* BENEFITS SECTION */
@@ -109,6 +110,15 @@ h1,h2,h3,h4,h5,h6{
 
 .book-tour {
     display: none;
+}
+
+.card-body {
+    cursor: pointer;
+}
+
+.card-body h2:hover {
+    color: #FEFCFD;
+    background-color: #f6ae2d;
 }
 
 /* Meet Our Tour Guides */
@@ -182,6 +192,7 @@ footer {
     background-color:  #FCFDFE;
     min-height: 120px;
     width: -webkit-fill-available;
+    word-spacing: 20px;
     margin-top: 40px;
 }
 
