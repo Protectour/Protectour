@@ -50,11 +50,15 @@ within them. High quality and well styled imagery is applied throughout, with al
 
 ## Wireframes
 
-A list of the Wireframes used for Desktop View are below:
+* [Mobile Wireframe Compiled](/workspace/Protectour/mobile-wireframe.jpg)
 
-A list of the Wireframes used for Tablet View are below:
+* [Tablet Home](/workspace/wf-tablet-home.jpg)
+* [Tablet Tourists](/workspace/wf-tablet-tourists.jpg)
+* [Tablet Guides](/workspace/wf-tablet-guides.jpg)
 
-A list of the Wireframes used for Mobile View are below:
+* [Desktop Home](/workspace/Protectour/desktop-home.jpg) 
+* [Desktop Tourists](/workspace/Protectour/desktop-home.jpg)
+* [Desktop Guides](/workspace/Protectour/desktop-home.jpg)
 
 # Features
 
@@ -88,12 +92,36 @@ A list of the Wireframes used for Mobile View are below:
 # Deployment
 
 ## GitHub Pages
+
+The project was deployed to GitHub Pages in this process.
+
+1. Sign in to your own Github account and select the GitHub repository, entitled Protectour.
+2. In the main navigation bar, there is a tab with the title 'Settings', select to continue.
+3. Scroll down the 'Settings' page when you see the heading 'GitHub Pages'.
+4. The 'Source' subheading, will enable a dropdown where you see 'None'. Choose the 'Master Branch'.
+5. The page should refresh.
+6. To confirm the site has been published, scroll down to the 'GitHub Pages' heading and it should now display as 'published' highlighted with a light green background.
+
 ## Branching the GitHub Repository
+
+1. On commencement of the project, all seven members of Beginner/Intermediate Team 1, created branches within their own version of Gitpod respository, making
+sure to Git Pull the changes made by the various team members.
+2. The branches were identified by the user, and the various areas of the site, which were decided, with reference to the Trello tool we used throughout.
+3. To ensure that no work overlapped and the same area wasn't being worked on by multiple team members, we kept in frequent
+contact using the Slack channel. This channel also served for agreement or necessary improvements.
+4. The team used a link supplied by the Code Institute Slack channel to ensure Git Merges were carried out without error. [This was the link supplied.](https://buildingsoftwareproducts.com/using-git-in-a-team/)
 
 # Credits
 
 ## Code
+
+* Bootstrap4: The Bootstrap Library was utilised throughout the project, ensuring the site was responsive across multiple and various viewports.
+
 ## Content
-## Media
+
+* All content and ideas were created by all seven members of Beginner Intermediate Team 1.
+
 ## Acknowledgements
 
+Our thanks to Code Institute for providing us with a challenge to test our ongoing learning within the 
+Full Stack Web Development course.
