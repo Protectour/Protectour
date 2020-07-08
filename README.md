@@ -20,23 +20,13 @@ means of tours provided In-Person and Live Video streaming.
 * As a new user to the site, I as a visitor want to see the Tour Guides currently represented by protecTour and testimonials of previous customers for positive feedback. I also
   want to learn about their social media presence to learn how responsive they are to users of the site.
 * As a new user to the site, I as a guide, want the same features as a visitor but also the option to contact protecTour, to promote my services.
-
-### Returning Visitor Goals
-
-* As a returning user of the site, I as a visitor/guide want to be able to view previous bookings and amend if necessary.
-* As a returning user of the site, I as a visitor/guide want to know if there are any current discounts or offers advertised by protecTour and how to redeem these offers.
-* As a returning user of the site, I as a visitor want to be able to leave my own feedback from tours provided and suggested through protecTour, and ease of use, or alternatively
-concerning issues.
-* As a returning user of the site, I as a guide want to be able to report or raise concerns of bookings made, planned, or completed.
-
-### Frequent User Goals
-
-* As a frequent user of the site, I as a guide want to know how to promote or highlight my services as priority among other tour operators.
-* As a frequent user of the site, I as a guide want to be informed by protecTour of any updates or service user agreement changes.
-
 ## Design
 
-### Colour Scheme
+### Colour theme
+
+* The team proposed two different possible colour palettes. There was resounding agreement to choose a Lavender/Purple on white colour scheme, with the body
+containing a blue background, and the navigation bar of white to contract the different elements in the page. The gold colour used against elements which encouraged
+user interaction were used against icons, buttons and social media links.
 
 ### Typography
 
@@ -84,10 +74,13 @@ within them. High quality and well styled imagery is applied throughout, with al
 ## Testing User Stories from User Experience (UX) Section
 
 ### First Time Visitor Goals
-### Returning Visitor Goals
-### Frequent User Goals
-
-## Further Testing
+1. On the first visit to the site, the landing page is clearly laid out with a navigation bar and logo to represent the company, with the menu collapsing into able
+dropdown when the screen reaches a tablet size or below. The colours used throughout are vibrant and contrasting, with similar style heading themes in main and sub-headings.
+They depict clearly the aim of Protectour and offer the ability to link directly to user-specific content via dropdown buttons.
+2. Navigation throughout the site is clear and logical. The option for users to book guides directly, on the "I'm a Tourist" page, displays a pop-up box clearly stating relevant
+information necessary to make a booking.
+3. Alternatively, a first time user, as a guide, is as easy to contact protecTour directly via a contact form on the "I'm Tour Guide" page. The contact form is display clearly,
+showing relevant information required, underneath benefits and testimonials from other guides, encouraging potential guides to use Protectour as a service.
 
 # Deployment
 
