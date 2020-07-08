@@ -81,6 +81,8 @@ h1,h2,h3,h4,h5,h6{
 .benefits {
     background-color: #FEFCFD;
     color: #f6ae2d;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .tourist-benefits {
