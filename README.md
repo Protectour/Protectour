@@ -21,19 +21,6 @@ means of tours provided In-Person and Live Video streaming.
   want to learn about their social media presence to learn how responsive they are to users of the site.
 * As a new user to the site, I as a guide, want the same features as a visitor but also the option to contact protecTour, to promote my services.
 
-### Returning Visitor Goals
-
-* As a returning user of the site, I as a visitor/guide want to be able to view previous bookings and amend if necessary.
-* As a returning user of the site, I as a visitor/guide want to know if there are any current discounts or offers advertised by protecTour and how to redeem these offers.
-* As a returning user of the site, I as a visitor want to be able to leave my own feedback from tours provided and suggested through protecTour, and ease of use, or alternatively
-concerning issues.
-* As a returning user of the site, I as a guide want to be able to report or raise concerns of bookings made, planned, or completed.
-
-### Frequent User Goals
-
-* As a frequent user of the site, I as a guide want to know how to promote or highlight my services as priority among other tour operators.
-* As a frequent user of the site, I as a guide want to be informed by protecTour of any updates or service user agreement changes.
-
 ## Design
 
 ### Colour Scheme
@@ -84,8 +71,17 @@ within them. High quality and well styled imagery is applied throughout, with al
 ## Testing User Stories from User Experience (UX) Section
 
 ### First Time Visitor Goals
-### Returning Visitor Goals
-### Frequent User Goals
+
+1. When visiting the landing page for the first time, the navigation bar is clearly displayed. The site logo is positioned at the left in bright colorful lettering, with the main menu collapsing
+into a dropdown menu, when reaching tablet-size viewports. The hero-imagery immediately promotes a famous landmark in Dublin, with colour-contrasting subheadings underneath, to demonstrate the sites purpose, to provide customers
+the ability to support local guides in a chosen destination.
+2. The site has been designed to be fluid over various device viewports. The user can navigate easily between clearly laid out pages. Dropdown buttons on the landing page encourage the user to enquire
+for more information for tour-booking or guide-registration, with the ability to exit with ease.
+3. Social Media links have been placed within the footer of each page, in a vibrant yellow, to stand out from the blue/white/lavender colour theme running throughout. The I'm a tourist page, displays well-spaced
+guide profiles for tourists to choose from. Clicking on any of the guides "Book a Tour" button will open a contact form for a 'tourist' to complete.
+4. As a guide, the site can also be navigated easily between pages. On the  "I'm a Guide" page, the services provided by Protectour, and testimonials from guides are uniformly displayed using a purple theme, in-keeping with the general site colour palette.
+The option to contact protecTour via a booking form on the "I'm a tour Guide" page is well laid out with contrasting colours to indicate message input and their values.
+
 
 ## Further Testing
 
