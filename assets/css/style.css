@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Lobster&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -7,27 +6,34 @@
 
 body {
     background-color: #BFCDE0;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
 }
 
-.letter-spacing{
+.letter-spacing {
     letter-spacing: 0.125rem;
 }
 
+
 /* General Use Classes */
 
-.BarlowF{
+.BarlowF {
     font-family: 'Barlow', sans-serif;
 }
 
-.LobsterF{
+.LobsterF {
     font-family: 'Lobster', cursive;
 }
+
 
 /* NAVBAR */
 
@@ -38,6 +44,7 @@ h1,h2,h3,h4,h5,h6{
 .navbar-brand .logo {
     max-height: 80px;
 }
+
 
 /* HEADINGS */
 
@@ -51,31 +58,33 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Lobster', cursive;
 }
 
+
 /* SERVICE OPTIONS */
 
-.ServTitle{
+.ServTitle {
     font-family: 'Lobster', cursive;
     padding: 1.25rem;
     margin: 0;
 }
 
-.ServText{
+.ServText {
     font-size: 0.95rem;
 }
 
-.CardIconC{
+.CardIconC {
     font-size: 5rem;
     text-align: center;
     padding-top: 1rem;
     color: #f6ae2d;
 }
 
-.CardHeadMain{
+.CardHeadMain {
     text-align: center;
     color: #000505;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
 
 /* BENEFITS SECTION */
 
@@ -124,6 +133,7 @@ h1,h2,h3,h4,h5,h6{
     background-color: #f6ae2d;
 }
 
+
 /* Meet Our Tour Guides */
 
 .guide-profile {
@@ -154,15 +164,18 @@ h1,h2,h3,h4,h5,h6{
     border: none;
 }
 
-.guide-btn:hover, .guide-btn:active, .guide-btn:hover:focus {
+.guide-btn:hover,
+.guide-btn:active,
+.guide-btn:hover:focus {
     background-color: #f6ae2d;
     color: #212529;
 }
 
+
 /* MODALS */
 
 .modal-body form {
-    width: 100%;    
+    width: 100%;
 }
 
 .close-btn {
@@ -180,11 +193,12 @@ h1,h2,h3,h4,h5,h6{
     color: #212529;
 }
 
+
 /* Media Queries */
 
 @media screen and (min-width: 768px) {
     .navbar-brand .logo {
-    max-height: 120px;
+        max-height: 120px;
     }
 }
 
@@ -192,7 +206,7 @@ h1,h2,h3,h4,h5,h6{
 /* FOOTER */
 
 footer {
-    background-color:  #FCFDFE;
+    background-color: #FCFDFE;
     min-height: 120px;
     width: -webkit-fill-available;
     word-spacing: 20px;
@@ -202,8 +216,8 @@ footer {
 .list-inline.social-links {
     padding-right: 0px;
     list-style: none;
-    background-color:#FCFDFE;
-    font-size:30px;
+    background-color: #FCFDFE;
+    font-size: 30px;
     padding-top: 30px;
     text-align: center;
 }
@@ -212,43 +226,42 @@ footer {
     color: #f6ae2d;
 }
 
+
 /* TOUR GUIDES */
 
-.TourTestemTitl{
+.TourTestemTitl {
     font-family: 'Lobster', cursive;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.TestBoxH{
+.TestBoxH {
     background-color: #3B3355;
-    color:#FEFCFD;
+    color: #FEFCFD;
     font-size: 1.5rem;
     border-radius: 10%;
-
 }
 
-.TestBoxB{
+.TestBoxB {
     background-color: #5D5D81;
     color: #f6ae2d;
 }
 
-.QuoteCont{
+.QuoteCont {
     color: #FCFDFE;
     font-size: 1rem;
     font-style: italic;
 }
 
 
-
-
 /* Contact Form */
-.form-heading h3{
+
+.form-heading h3 {
     font-family: 'Lobster', cursive;
     color: #212529;
 }
 
-.form-heading h4{
+.form-heading h4 {
     font-family: 'Barlow', sans-serif;
     color: #FCFDFE;
 }
@@ -259,7 +272,7 @@ form {
     padding: 20px 25px;
     margin: auto;
     margin-top: 30px;
-    box-shadow: 0px 1px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
     margin-bottom: 40px;
 }
 
@@ -276,15 +289,17 @@ form textarea {
 }
 
 .form-control {
-    background-color: #E6F4F1 ;
+    background-color: #E6F4F1;
 }
+
 form button {
-    border: 1px solid rgba(0,0,0,0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 8px 35px;
     font-size: 12px;
     text-align: center;
     color: white;
 }
+
 form label {
     color: #777;
     font-size: 11px;
@@ -293,12 +308,11 @@ form label {
 }
 
 .contact-heading {
-    font-family: 'Lobster', cursive;    
+    font-family: 'Lobster', cursive;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
 
 .center-form {
     padding-top: 10px;
@@ -306,17 +320,16 @@ form label {
     max-width: 70%;
 }
 
-.TGContButton{
+.TGContButton {
     border-radius: 50%;
 }
-
 
 button[type="submit"] {
     font-family: 'Lobster', cursive;
     font-size: 15px;
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color:  #f6ae2d;
+    background-color: #f6ae2d;
     color: #FCFDFE;
     letter-spacing: 2px;
 }

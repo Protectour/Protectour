@@ -1,481 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/90ee600770.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Protectour - Share your world with the world</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+        <script src="https://kit.fontawesome.com/90ee600770.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>Protectour - Share your world with the world</title>
+    </head>
 
-  <body>
-<!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-custom">
-      <a class="navbar-brand" href="index.html">
-        <img
-          src="assets/images/protectour-logo.png"
-          class="img-fluid logo"
-          alt="Protectour logo"
-        />
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="#">
-              <span class="sr-only">(current)</span>I'm A Tourist</a
-            >
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="tourguides.html"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              I'm A Tour Guide
+    <body>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/protectour-logo.png" class="img-fluid logo" alt="Protectour logo" />
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="tourguides.html"
-                >For Tour Guides</a
-              >
-              <a class="dropdown-item" href="tourguides.html#servicesummary"
-                >Services Offered</a
-              >
-              <a class="dropdown-item" href="tourguides.html#testimonials">Testimonials</a>
-              <a class="dropdown-item" href="tourguides.html#contact"
-                >Register With Us</a
-              >
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-<!--.NAVBAR-->
-<!--Hero Image-->
-    <div class="row justify-content-center image-selection">
-        <div class="image-container-fluid">
-            <img class="img-fluid" src="assets/images/edinburgh-castle.jpg" alt="Edinburgh Castle">
-        </div>
-    </div>
-<!--.Hero Image-->
-<!----Meet Our Tour Guides-->
-    <h1 class="section-heading">Meet Our Tour Guides</h1>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-md-4 guide-profile">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="assets/images/tourguides/reflection-3663146_640.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title tourguide">Brian</h5>
-              <p class="small">Dublin, Ireland</p>
-              <span class="card-text highlight">Specialised Tours:</span>
-              <span class="card-text"
-                >Viking trail, Dublin's connection to love</span
-              ><br />
-              <span class="card-text highlight">Personalised Tours:</span>
-              <span class="card-text">Yes</span><br />
-              <span class="card-text highlight">Languages:</span>
-              <span class="card-text">English, Irish, German</span><br />
-              <span class="card-text highlight">Pricing:</span>
-              <span class="card-text">From €10</span><br />
-              <div class="container-fluid btn-container">
-                <div class="row">
-                  <div class="col-12 btn-column">
-                    <span
-                      class="btn btn-primary book-now guide-btn"
-                      data-toggle="modal"
-                      data-target="#book-tour-modal"
-                      data-recipient="@Brian"
-                      >Book A Tour</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 guide-profile">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="assets/images/tourguides/adult-1867618_640.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title tourguide">Helen</h5>
-              <p class="small">London, England</p>
-              <span class="card-text highlight">Specialised Tours:</span>
-              <span class="card-text">Hidden London, Haunted London</span><br />
-              <span class="card-text highlight">Personalised Tours:</span>
-              <span class="card-text">Yes</span><br />
-              <span class="card-text highlight">Languages:</span>
-              <span class="card-text">English, French, Russian</span><br />
-              <span class="card-text highlight">Pricing:</span>
-              <span class="card-text">From £20</span><br />
-              <div class="container-fluid btn-container">
-                <div class="row">
-                  <div class="col-12 btn-column">
-                    <span
-                      class="btn btn-primary book-now guide-btn"
-                      data-toggle="modal"
-                      data-target="#book-tour-modal"
-                      data-recipient="@Helen"
-                      >Book A Tour</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 guide-profile">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="assets/images/tourguides/loch-1022928_640.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title tourguide">Alastair</h5>
-              <p class="small">Edinburgh, Scotland</p>
-              <span class="card-text highlight">Specialised Tours:</span>
-              <span class="card-text"
-                >From cobbled streets to the Highland Munros</span
-              ><br />
-              <span class="card-text highlight">Personalised Tours:</span>
-              <span class="card-text">Yes</span><br />
-              <span class="card-text highlight">Languages:</span>
-              <span class="card-text">English</span><br />
-              <span class="card-text highlight">Pricing:</span>
-              <span class="card-text">From £10</span><br />
-              <div class="container-fluid btn-container">
-                <div class="row">
-                  <div class="col-12 btn-column">
-                    <span
-                      class="btn book-now guide-btn"
-                      data-toggle="modal"
-                      data-target="#book-tour-modal"
-                      data-recipient="@Alastair"
-                      >Book A Tour</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-         <div class="col-12 col-md-4 guide-profile">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="assets/images/tourguides/human-3782189_1280.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title tourguide">Francesco</h5>
-              <p class="small">Venice, Italy</p>
-              <span class="card-text highlight">Specialised Tours:</span>
-              <span class="card-text"
-                >Private Gondola</span
-              ><br />
-              <span class="card-text highlight">Personalised Tours:</span>
-              <span class="card-text">No</span><br />
-              <span class="card-text highlight">Languages:</span>
-              <span class="card-text">Italian, English, Spanish</span><br />
-              <span class="card-text highlight">Pricing:</span>
-              <span class="card-text">From £50</span><br />
-              <div class="container-fluid btn-container">
-                <div class="row">
-                  <div class="col-12 btn-column">
-                    <span
-                      class="btn book-now guide-btn"
-                      data-toggle="modal"
-                      data-target="#book-tour-modal"
-                      data-recipient="@Francesco"
-                      >Book A Tour</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-         <div class="col-12 col-md-4 guide-profile">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="assets/images/tourguides/blue-2705642_1920.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title tourguide">Margaux</h5>
-              <p class="small">Paris, France</p>
-              <span class="card-text highlight">Specialised Tours:</span>
-              <span class="card-text"
-                >Art Tours</span
-              ><br />
-              <span class="card-text highlight">Personalised Tours:</span>
-              <span class="card-text">No</span><br />
-              <span class="card-text highlight">Languages:</span>
-              <span class="card-text">French, Spanish, Italian, English </span><br />
-              <span class="card-text highlight">Pricing:</span>
-              <span class="card-text">From £15</span><br />
-              <div class="container-fluid btn-container">
-                <div class="row">
-                  <div class="col-12 btn-column">
-                    <span
-                      class="btn book-now guide-btn"
-                      data-toggle="modal"
-                      data-target="#book-tour-modal"
-                      data-recipient="@Margaux"
-                      >Book A Tour</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-                 <div class="col-12 col-md-4 guide-profile">
-          <div class="card">
-            <img
-              class="card-img-top"
-              src="assets/images/tourguides/beard-1867175_1920.jpg"
-              alt="Card image cap"
-            />
-            <div class="card-body">
-              <h5 class="card-title tourguide">Gunnar</h5>
-              <p class="small">Reykjavik, Iceland</p>
-              <span class="card-text highlight">Specialised Tours:</span>
-              <span class="card-text"
-                >Off-Road Nature Tours</span
-              ><br />
-              <span class="card-text highlight">Personalised Tours:</span>
-              <span class="card-text">Yes</span><br />
-              <span class="card-text highlight">Languages:</span>
-              <span class="card-text">Icelandic, English, Danish, Swedish</span><br />
-              <span class="card-text highlight">Pricing:</span>
-              <span class="card-text">From £100</span><br />
-              <div class="container-fluid btn-container">
-                <div class="row">
-                  <div class="col-12 btn-column">
-                    <span
-                      class="btn book-now guide-btn"
-                      data-toggle="modal"
-                      data-target="#book-tour-modal"
-                      data-recipient="@Gunnar"
-                      >Book A Tour</span
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-</div>
-<!--.Meet Our Tour Guides-->
-<!--Modal for making a booking-->
-    <div
-      class="modal fade"
-      id="book-tour-modal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="book-tour-modal"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="book-tour-modal-heading">
-              Book a tour with
-            </h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-          </div>
-          <div class="modal-body">
-            <form id="modal-booking">
-              <div class="form-group">
-                <label for="recipient-name" class="col-form-label"
-                  >Recipient:</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="recipient-name"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="contact-details" class="col-form-label"
-                  >Your Name:</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="users-name"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="users-email" class="col-form-label"
-                  >Your Email Address</label
-                >
-                <input
-                  type="email"
-                  class="form-control"
-                  id="users-email"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label for="message-text" class="col-form-label"
-                  >Message:</label
-                >
-                <textarea
-                  class="form-control"
-                  id="message-text"
-                  required
-                ></textarea>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-secondary close-btn"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-                <button type="submit" class="btn send-message">
-                  Send message
-                </button>
-              </div>
-            </form>
-          </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> <span class="sr-only">(current)</span>I'm A Tourist</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="tourguides.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            I'm A Tour Guide
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="tourguides.html">For Tour Guides</a>
+                            <a class="dropdown-item" href="tourguides.html#servicesummary">Services Offered</a>
+                            <a class="dropdown-item" href="tourguides.html#testimonials">Testimonials</a>
+                            <a class="dropdown-item" href="tourguides.html#contact">Register With Us</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--.NAVBAR-->
+        <!--Hero Image-->
+        <div class="row justify-content-center image-selection">
+            <div class="image-container-fluid">
+                <img class="img-fluid" src="assets/images/edinburgh-castle.jpg" alt="Edinburgh Castle" />
+            </div>
         </div>
-      </div>
-    </div>
-<!--.Modal for making a booking-->
-<!--Modal to acknowledge booking message-->
-    <div class="modal" id="thankyou" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-body">
-            <p>Thank you for your message</p>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
-          </div>
+        <!--.Hero Image-->
+        <!--Meet Our Tour Guides-->
+        <h1 class="section-heading">Meet Our Tour Guides</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-4 guide-profile">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/tourguides/reflection-3663146_640.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title tourguide">Brian</h5>
+                            <p class="small">Dublin, Ireland</p>
+                            <span class="card-text highlight">Specialised Tours:</span>
+                            <span class="card-text">Viking trail, Dublin's connection to love</span><br />
+                            <span class="card-text highlight">Personalised Tours:</span>
+                            <span class="card-text">Yes</span><br />
+                            <span class="card-text highlight">Languages:</span>
+                            <span class="card-text">English, Irish, German</span><br />
+                            <span class="card-text highlight">Pricing:</span>
+                            <span class="card-text">From €10</span><br />
+                            <div class="container-fluid btn-container">
+                                <div class="row">
+                                    <div class="col-12 btn-column">
+                                        <span class="btn btn-primary book-now guide-btn" data-toggle="modal" data-target="#book-tour-modal" data-recipient="@Brian">Book A Tour</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 guide-profile">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/tourguides/adult-1867618_640.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title tourguide">Helen</h5>
+                            <p class="small">London, England</p>
+                            <span class="card-text highlight">Specialised Tours:</span>
+                            <span class="card-text">Hidden London, Haunted London</span><br />
+                            <span class="card-text highlight">Personalised Tours:</span>
+                            <span class="card-text">Yes</span><br />
+                            <span class="card-text highlight">Languages:</span>
+                            <span class="card-text">English, French, Russian</span><br />
+                            <span class="card-text highlight">Pricing:</span>
+                            <span class="card-text">From £20</span><br />
+                            <div class="container-fluid btn-container">
+                                <div class="row">
+                                    <div class="col-12 btn-column">
+                                        <span class="btn btn-primary book-now guide-btn" data-toggle="modal" data-target="#book-tour-modal" data-recipient="@Helen">Book A Tour</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 guide-profile">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/tourguides/loch-1022928_640.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title tourguide">Alastair</h5>
+                            <p class="small">Edinburgh, Scotland</p>
+                            <span class="card-text highlight">Specialised Tours:</span>
+                            <span class="card-text">From cobbled streets to the Highland Munros</span><br />
+                            <span class="card-text highlight">Personalised Tours:</span>
+                            <span class="card-text">Yes</span><br />
+                            <span class="card-text highlight">Languages:</span>
+                            <span class="card-text">English</span><br />
+                            <span class="card-text highlight">Pricing:</span>
+                            <span class="card-text">From £10</span><br />
+                            <div class="container-fluid btn-container">
+                                <div class="row">
+                                    <div class="col-12 btn-column">
+                                        <span class="btn book-now guide-btn" data-toggle="modal" data-target="#book-tour-modal" data-recipient="@Alastair">Book A Tour</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 guide-profile">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/tourguides/human-3782189_1280.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title tourguide">Francesco</h5>
+                            <p class="small">Venice, Italy</p>
+                            <span class="card-text highlight">Specialised Tours:</span>
+                            <span class="card-text">Private Gondola</span><br />
+                            <span class="card-text highlight">Personalised Tours:</span>
+                            <span class="card-text">No</span><br />
+                            <span class="card-text highlight">Languages:</span>
+                            <span class="card-text">Italian, English, Spanish</span><br />
+                            <span class="card-text highlight">Pricing:</span>
+                            <span class="card-text">From £50</span><br />
+                            <div class="container-fluid btn-container">
+                                <div class="row">
+                                    <div class="col-12 btn-column">
+                                        <span class="btn book-now guide-btn" data-toggle="modal" data-target="#book-tour-modal" data-recipient="@Francesco">Book A Tour</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 guide-profile">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/tourguides/blue-2705642_1920.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title tourguide">Margaux</h5>
+                            <p class="small">Paris, France</p>
+                            <span class="card-text highlight">Specialised Tours:</span>
+                            <span class="card-text">Art Tours</span><br />
+                            <span class="card-text highlight">Personalised Tours:</span>
+                            <span class="card-text">No</span><br />
+                            <span class="card-text highlight">Languages:</span>
+                            <span class="card-text">French, Spanish, Italian, English </span><br />
+                            <span class="card-text highlight">Pricing:</span>
+                            <span class="card-text">From £15</span><br />
+                            <div class="container-fluid btn-container">
+                                <div class="row">
+                                    <div class="col-12 btn-column">
+                                        <span class="btn book-now guide-btn" data-toggle="modal" data-target="#book-tour-modal" data-recipient="@Margaux">Book A Tour</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 guide-profile">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/tourguides/beard-1867175_1920.jpg" alt="Card image cap" />
+                        <div class="card-body">
+                            <h5 class="card-title tourguide">Gunnar</h5>
+                            <p class="small">Reykjavik, Iceland</p>
+                            <span class="card-text highlight">Specialised Tours:</span>
+                            <span class="card-text">Off-Road Nature Tours</span><br />
+                            <span class="card-text highlight">Personalised Tours:</span>
+                            <span class="card-text">Yes</span><br />
+                            <span class="card-text highlight">Languages:</span>
+                            <span class="card-text">Icelandic, English, Danish, Swedish</span><br />
+                            <span class="card-text highlight">Pricing:</span>
+                            <span class="card-text">From £100</span><br />
+                            <div class="container-fluid btn-container">
+                                <div class="row">
+                                    <div class="col-12 btn-column">
+                                        <span class="btn book-now guide-btn" data-toggle="modal" data-target="#book-tour-modal" data-recipient="@Gunnar">Book A Tour</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-<!--.Modal to acknowledge booking message-->
-<!----Footer-->
-    <footer class="page-footer">
-		<div class="row no-gutters">
-		 <div class="col-12 social-pages text-center">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.linkedin.com">
-                <i class="fa fa-linkedin .text-white"></i>
-                <span class="sr-only">Linkedin</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.instagram.com/">
-                <i class="fa fa-instagram"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com/">
-                <i class="fa fa-facebook"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.slack.com/">
-                <i class="fa fa-slack"></i>
-                <span class="sr-only">Slack</span>
-              </a>
-            </li>
-          </ul>
+        <!--.Meet Our Tour Guides-->
+        <!--Modal for making a booking-->
+        <div class="modal fade" id="book-tour-modal" tabindex="-1" role="dialog" aria-labelledby="book-tour-modal" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="book-tour-modal-heading">
+                            Book a tour with
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="modal-booking">
+                            <div class="form-group">
+                                <label for="recipient-name" class="col-form-label">Recipient:</label>
+                                <input type="text" class="form-control" id="recipient-name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-details" class="col-form-label">Your Name:</label>
+                                <input type="text" class="form-control" id="contact-details" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="users-email" class="col-form-label">Your Email Address</label>
+                                <input type="email" class="form-control" id="users-email" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text" required></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">
+                                    Close
+                                </button>
+                                <button type="submit" class="btn send-message">
+                                    Send message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </footer>
-<!----Footer-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function () {
-        $("#book-tour-modal").on("show.bs.modal", function (event) {
-          let button = $(event.relatedTarget);
-          let recipient = button.data("recipient");
-          let modal = $(this);
-          modal.find(".modal-title").text("Book a tour with " + recipient);
-          modal.find(".modal-body #recipient-name").val(recipient);
-        });
-        $("#modal-booking").on("submit", function (e) {
-          event.preventDefault();
-          $("#book-tour-modal").modal("hide");
-          $("#thankyou").modal("show");
-        });
-        // reset value of modal message input box upon close. Credit: https://stackoverflow.com/questions/47365580/reset-clear-modal-form-on-closing-it
-        $("#book-tour-modal").on("hidden.bs.modal", function (e) {
-          $(this).find("#modal-booking")[0].reset();
-        });
-      });
-    </script>
-  </body>
+        <!--.Modal for making a booking-->
+        <!--Modal to acknowledge booking message-->
+        <div class="modal" id="thankyou" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p>Thank you for your message</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--.Modal to acknowledge booking message-->
+        <!--Footer-->
+        <footer class="page-footer">
+            <div class="row no-gutters">
+                <div class="col-12 social-pages text-center">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.linkedin.com">
+                                <i class="fa fa-linkedin .text-white"></i>
+                                <span class="sr-only">Linkedin</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/">
+                                <i class="fa fa-instagram"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/">
+                                <i class="fa fa-facebook"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.slack.com/">
+                                <i class="fa fa-slack"></i>
+                                <span class="sr-only">Slack</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!----Footer-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#book-tour-modal").on("show.bs.modal", function (event) {
+                    let button = $(event.relatedTarget);
+                    let recipient = button.data("recipient");
+                    let modal = $(this);
+                    modal.find(".modal-title").text("Book a tour with " + recipient);
+                    modal.find(".modal-body #recipient-name").val(recipient);
+                });
+                $("#modal-booking").on("submit", function (e) {
+                    event.preventDefault();
+                    $("#book-tour-modal").modal("hide");
+                    $("#thankyou").modal("show");
+                });
+                // reset value of modal message input box upon close. Credit: https://stackoverflow.com/questions/47365580/reset-clear-modal-form-on-closing-it
+                $("#book-tour-modal").on("hidden.bs.modal", function (e) {
+                    $(this).find("#modal-booking")[0].reset();
+                });
+            });
+        </script>
+    </body>
 </html>
